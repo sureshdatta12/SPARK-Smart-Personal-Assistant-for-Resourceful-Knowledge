@@ -40,4 +40,30 @@ needs
 * Processor: Any modern processor (Intel Core i3 or equivalent).
 * RAM: Minimum 4GB, recommended 8GB.
 * Storage: Solid State Drive (SSD) recommended for faster performance.
-* Internet Connection: Stable internet access for API communications. 
+* Internet Connection: Stable internet access for API communications.
+
+## Project Structure 
+Spark_Virtual_Assistant/
+├── engine/
+│   ├── init.py
+│   ├── command.py
+│   ├── features.py
+│   └── web.py
+├── www/
+│   ├── assets/
+│   │   └── img/
+│   │       ├── logo.ico
+│   │       └── start_sound.mp3
+│   │   └── imgscr{timestamp}.png
+│   │   └── vendore/
+│   │       └── texllate/
+│   │           ├── animate.css
+│   ├── controller.js
+│   ├── index.html
+│   ├── main.js
+│   ├── script.js
+│   └── style.css
+├── main.py
+├── PyWhatKit_DB.txt
+├── notes.txt
+└── README.md
