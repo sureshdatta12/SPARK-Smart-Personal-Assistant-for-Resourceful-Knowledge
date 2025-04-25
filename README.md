@@ -43,6 +43,7 @@ needs
 * Internet Connection: Stable internet access for API communications.
 
 ## Project Structure 
+```
 Spark_Virtual_Assistant/
 ├── engine/
 │   ├── init.py
@@ -67,3 +68,24 @@ Spark_Virtual_Assistant/
 ├── PyWhatKit_DB.txt
 ├── notes.txt
 └── README.md
+```
+
+## How TO Run
+
+1. Clone
+```
+git clone [repository URL]
+cd Spark_Virtual_Assistant
+```
+
+2. Install
+```
+python3 -m venv venv (Optional but recommended)
+source venv/bin/activate (or venv\Scripts\activate)
+pip install -r requirements.txt
+```
+
+3. Run
+```
+python main.py
+```
