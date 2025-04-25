@@ -74,7 +74,7 @@ Spark_Virtual_Assistant/
 
 1. Clone
 ```
-git clone [repository URL]
+git clone [https://github.com/sureshdatta12/SPARK-Smart-Personal-Assistant-for-Resourceful-Knowledge]
 cd Spark_Virtual_Assistant
 ```
 
